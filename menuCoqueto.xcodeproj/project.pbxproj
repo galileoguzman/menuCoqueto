@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		F203A7431ACA60EC00D77774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7421ACA60EC00D77774 /* main.m */; };
 		F203A7461ACA60EC00D77774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7451ACA60EC00D77774 /* AppDelegate.m */; };
-		F203A7491ACA60EC00D77774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7481ACA60EC00D77774 /* ViewController.m */; };
+		F203A7491ACA60EC00D77774 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7481ACA60EC00D77774 /* Home.m */; };
 		F203A74C1ACA60EC00D77774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F203A74A1ACA60EC00D77774 /* Main.storyboard */; };
 		F203A74E1ACA60EC00D77774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F203A74D1ACA60EC00D77774 /* Images.xcassets */; };
 		F203A7511ACA60EC00D77774 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F203A74F1ACA60EC00D77774 /* LaunchScreen.xib */; };
 		F203A75D1ACA60EC00D77774 /* menuCoquetoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A75C1ACA60EC00D77774 /* menuCoquetoTests.m */; };
+		F203A76A1ACA616F00D77774 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7691ACA616F00D77774 /* SWRevealViewController.m */; };
+		F203A76F1ACA627600D77774 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A76E1ACA627600D77774 /* Menu.m */; };
+		F203A7721ACA637800D77774 /* 1427796523_editor_list_view_hambuger_menu-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F203A7711ACA637800D77774 /* 1427796523_editor_list_view_hambuger_menu-32.png */; };
+		F203A7761ACA663300D77774 /* Busqueda.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7751ACA663300D77774 /* Busqueda.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,21 @@
 		F203A7421ACA60EC00D77774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F203A7441ACA60EC00D77774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F203A7451ACA60EC00D77774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F203A7471ACA60EC00D77774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F203A7481ACA60EC00D77774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F203A7471ACA60EC00D77774 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		F203A7481ACA60EC00D77774 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		F203A74B1ACA60EC00D77774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F203A74D1ACA60EC00D77774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F203A7501ACA60EC00D77774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F203A7561ACA60EC00D77774 /* menuCoquetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuCoquetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F203A75B1ACA60EC00D77774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F203A75C1ACA60EC00D77774 /* menuCoquetoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuCoquetoTests.m; sourceTree = "<group>"; };
+		F203A7681ACA616F00D77774 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F203A7691ACA616F00D77774 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F203A76D1ACA627600D77774 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		F203A76E1ACA627600D77774 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		F203A7711ACA637800D77774 /* 1427796523_editor_list_view_hambuger_menu-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1427796523_editor_list_view_hambuger_menu-32.png"; sourceTree = "<group>"; };
+		F203A7741ACA663300D77774 /* Busqueda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Busqueda.h; sourceTree = "<group>"; };
+		F203A7751ACA663300D77774 /* Busqueda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Busqueda.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,13 @@
 		F203A73F1ACA60EC00D77774 /* menuCoqueto */ = {
 			isa = PBXGroup;
 			children = (
+				F203A7731ACA661F00D77774 /* Busqueda */,
+				F203A7701ACA636300D77774 /* Media */,
+				F203A76C1ACA625100D77774 /* Home */,
+				F203A76B1ACA624B00D77774 /* Menu */,
+				F203A7661ACA615600D77774 /* Frameworks */,
 				F203A7441ACA60EC00D77774 /* AppDelegate.h */,
 				F203A7451ACA60EC00D77774 /* AppDelegate.m */,
-				F203A7471ACA60EC00D77774 /* ViewController.h */,
-				F203A7481ACA60EC00D77774 /* ViewController.m */,
 				F203A74A1ACA60EC00D77774 /* Main.storyboard */,
 				F203A74D1ACA60EC00D77774 /* Images.xcassets */,
 				F203A74F1ACA60EC00D77774 /* LaunchScreen.xib */,
@@ -117,6 +131,58 @@
 				F203A75B1ACA60EC00D77774 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F203A7661ACA615600D77774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F203A7671ACA616F00D77774 /* SWRevealViewController */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F203A7671ACA616F00D77774 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F203A7681ACA616F00D77774 /* SWRevealViewController.h */,
+				F203A7691ACA616F00D77774 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		F203A76B1ACA624B00D77774 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F203A76D1ACA627600D77774 /* Menu.h */,
+				F203A76E1ACA627600D77774 /* Menu.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		F203A76C1ACA625100D77774 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F203A7471ACA60EC00D77774 /* Home.h */,
+				F203A7481ACA60EC00D77774 /* Home.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F203A7701ACA636300D77774 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F203A7711ACA637800D77774 /* 1427796523_editor_list_view_hambuger_menu-32.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		F203A7731ACA661F00D77774 /* Busqueda */ = {
+			isa = PBXGroup;
+			children = (
+				F203A7741ACA663300D77774 /* Busqueda.h */,
+				F203A7751ACA663300D77774 /* Busqueda.m */,
+			);
+			name = Busqueda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F203A7721ACA637800D77774 /* 1427796523_editor_list_view_hambuger_menu-32.png in Resources */,
 				F203A74C1ACA60EC00D77774 /* Main.storyboard in Resources */,
 				F203A7511ACA60EC00D77774 /* LaunchScreen.xib in Resources */,
 				F203A74E1ACA60EC00D77774 /* Images.xcassets in Resources */,
@@ -219,9 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F203A7491ACA60EC00D77774 /* ViewController.m in Sources */,
+				F203A76F1ACA627600D77774 /* Menu.m in Sources */,
+				F203A7761ACA663300D77774 /* Busqueda.m in Sources */,
+				F203A7491ACA60EC00D77774 /* Home.m in Sources */,
 				F203A7461ACA60EC00D77774 /* AppDelegate.m in Sources */,
 				F203A7431ACA60EC00D77774 /* main.m in Sources */,
+				F203A76A1ACA616F00D77774 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Busqueda.h
 //  menuCoqueto
 //
 //  Created by Galileo Guzman on 30/03/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Busqueda : UIViewController
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *menuButton;
 
 @end
-
